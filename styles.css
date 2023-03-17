@@ -1,0 +1,35 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  width: 300px;
+  height: 150px;
+}
+
+.first-title {grid-area: tone; margin-bottom: 0px;}
+.first-par {grid-area: parone; margin-top: 10px; margin-bottom: 0px;}
+.material-symbols-outlined {grid-area: icon;}
+
+#icon {
+  line-height: 2;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+
+.right-side-one {
+  display: grid;
+  grid-template-areas:
+  "icon tone"
+  ". parone";
+}
+
+#icon-two {
+  line-height: 3;
+   padding-right: 30px 
+  }
+
+.left-side-one {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+}
